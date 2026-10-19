@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "buildHash": "20744764f88340a1844a00139fac38a61518e0b2d47f34599144e2ac20d04f36",
+  "normalization": "raw entities once; LF; macro-aware scanner v1",
+  "home": {
+    "passage": "Widgets Clothing Caption / startCaption",
+    "passageHash": "c65039bf1e3d813f1512f9ba4ec9532e8f908793cd66eef7d6fcf3815389ad3c",
+    "anchor": "lace \"options\">>\n\t\t<</button>>\n\t\t<<button FEATS>>\n\t\t\t<<overlayReplace \"startFeats\">>\n\t\t<</button>>\n\t</div>",
+    "matchCount": 1,
+    "anchorStart": 225,
+    "splitOpen": [
+      156,
+      188
+    ],
+    "splitClose": [
+      325,
+      331
+    ],
+    "insertAt": 331,
+    "directParent": "external #startCaption widget caller",
+    "outerClose": null,
+    "offsetUnit": "Unicode code points; match anchor text at runtime",
+    "inMemoryStructureValidated": true,
+    "fullPassageHash": "751ea0c0a149d73abcc8278d93afd8dba0546e4f317aef89efafd8696b667990",
+    "widgetCallerVerified": true
+  },
+  "ingame": {
+    "passage": "StoryCaption",
+    "passageHash": "cca6f3f55a09b9a55acba96c24305eb04050bf1c7405dd286cc4b86dcd5db296",
+    "anchor": "\"options\">>\n\t\t\t\t<</button>>\n\t\t\t\t<<button SAVES>>\n\t\t\t\t\t<<overlayReplace \"saves\">>\n\t\t\t\t<</button>>\n\t\t\t</div>",
+    "matchCount": 1,
+    "anchorStart": 13534,
+    "splitOpen": [
+      13456,
+      13488
+    ],
+    "splitClose": [
+      13634,
+      13640
+    ],
+    "insertAt": 13640,
+    "directParent": "overlayButtons",
+    "outerClose": 13643,
+    "offsetUnit": "Unicode code points; match anchor text at runtime",
+    "inMemoryStructureValidated": true
+  }
+}

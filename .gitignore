@@ -1,0 +1,13 @@
+**/node_modules/
+**/__pycache__/
+**/*.py[cod]
+**/dist/
+**/reports/
+**/fixtures-private/
+**/.env
+**/.env.*
+!**/.env.example
+**/TASK.md
+**/DIALOGUE-ARCHIVE*/
+**/*.log
+**/.DS_Store

@@ -1,0 +1,60 @@
+[
+  {
+    "package": "jszip",
+    "version": "3.10.1",
+    "source": "https://github.com/Stuk/jszip/tree/v3.10.1",
+    "files": [
+      {
+        "path": "jszip.min.js",
+        "sha256": "acc7e41455a80765b5fd9c7ee1b8078a6d160bbbca455aeae854de65c947d59e"
+      },
+      {
+        "path": "LICENSE.markdown",
+        "sha256": "566c953c6090b1218ca6217dd7359d45dde46581968586dc607d59a78af6a9c4"
+      },
+      {
+        "path": "package.json",
+        "sha256": "83569b5b130b5ec27ae281ed80420ad364baf1bf64cb82e6ac8fb891e1b4ec4c"
+      }
+    ]
+  },
+  {
+    "package": "pngjs",
+    "version": "7.0.0",
+    "source": "https://github.com/pngjs/pngjs/tree/v7.0.0",
+    "files": [
+      {
+        "path": "browser.js",
+        "sha256": "e21b88288e3df098f476bb3c4d1e8900d3780572e1802c8e301e38674d527f51"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "be75ef59c5cf59715588a17a82dff7dd3e83c4dba3c458676bb9311e05fbedc5"
+      },
+      {
+        "path": "package.json",
+        "sha256": "85b17f2f852aece03e71edb4ed4d9fddf6a0a8f0b69ac75d7f00b6592d62d37c"
+      }
+    ]
+  },
+  {
+    "package": "json5",
+    "version": "2.2.3",
+    "source": "https://registry.npmjs.org/json5/-/json5-2.2.3.tgz",
+    "integrity": "sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==",
+    "files": [
+      {
+        "path": "index.min.js",
+        "sha256": "4bb96d9d53f380ac801819411b8c10868ac9a984de863e56402ac00c2289b9f1"
+      },
+      {
+        "path": "LICENSE.md",
+        "sha256": "53e59feb13058722d977c699eb0407c7bce2f93c949b681bbd2ff31698535927"
+      },
+      {
+        "path": "package.json",
+        "sha256": "1927c4592e3811cf9b8c86e568df1c41a373b628b4b322f88872395ef87e2ba5"
+      }
+    ]
+  }
+]

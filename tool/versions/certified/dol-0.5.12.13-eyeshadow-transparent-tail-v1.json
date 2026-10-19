@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "dol-0.5.12.13-eyeshadow-transparent-tail-v1",
+  "status": "validated",
+  "targetProfileHash": "2e2d00a4b0a5b4c80b84a6c358b787b1f566692f0fc06003562d8a4339785494",
+  "modelContract": {
+    "name": "main",
+    "width": 256,
+    "height": 256,
+    "frames": 2,
+    "scale": true,
+    "layer": "makeup_eyeshadow",
+    "srcfnHash": "40497a8560d1f1fc4e5e355a29ed68b5592e1b9023de87928e0f93cab50b0a03"
+  },
+  "groups": [
+    {
+      "id": "eyeshadow-aloof",
+      "sourceHashes": {
+        "img/face/default/aloof/makeup/eyeshadow.png": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30",
+        "img/face/default/aloof/makeup/eyeshadow-half-closed.png": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30"
+      },
+      "outputHashes": {
+        "img/face/default/aloof/makeup/eyeshadow.png": "c3a0f6816475fc6b14f3a1a420dd25fca9d7936fb6225316886036978d32a975",
+        "img/face/default/aloof/makeup/eyeshadow-half-closed.png": "c3a0f6816475fc6b14f3a1a420dd25fca9d7936fb6225316886036978d32a975"
+      },
+      "requiredOutputs": [
+        "img/face/default/aloof/makeup/eyeshadow.png",
+        "img/face/default/aloof/makeup/eyeshadow-half-closed.png"
+      ],
+      "operations": [
+        {
+          "op": "crop-transparent-right",
+          "src": "img/face/default/aloof/makeup/eyeshadow.png",
+          "dst": "img/face/default/aloof/makeup/eyeshadow.png",
+          "fromWidth": 516,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "op": "crop-transparent-right",
+          "src": "img/face/default/aloof/makeup/eyeshadow-half-closed.png",
+          "dst": "img/face/default/aloof/makeup/eyeshadow-half-closed.png",
+          "fromWidth": 516,
+          "width": 512,
+          "height": 256
+        }
+      ],
+      "evidence": {
+        "model": "main",
+        "layer": "makeup_eyeshadow",
+        "states": [
+          "eyes_half=false",
+          "eyes_half=true"
+        ],
+        "frameWidth": 256,
+        "frameCount": 2,
+        "proof": "These exact source assets are fully transparent placeholders. Only transparent trailing columns removed. First 512 columns remain byte-identical RGBA. No resampling or frame offsets."
+      },
+      "fallbackPaths": [
+        "img/face/default/aloof/makeup/eyeshadow.png",
+        "img/face/default/aloof/makeup/eyeshadow-half-closed.png"
+      ]
+    },
+    {
+      "id": "eyeshadow-catty",
+      "sourceHashes": {
+        "img/face/default/catty/makeup/eyeshadow.png": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30",
+        "img/face/default/catty/makeup/eyeshadow-half-closed.png": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30"
+      },
+      "outputHashes": {
+        "img/face/default/catty/makeup/eyeshadow.png": "c3a0f6816475fc6b14f3a1a420dd25fca9d7936fb6225316886036978d32a975",
+        "img/face/default/catty/makeup/eyeshadow-half-closed.png": "c3a0f6816475fc6b14f3a1a420dd25fca9d7936fb6225316886036978d32a975"
+      },
+      "requiredOutputs": [
+        "img/face/default/catty/makeup/eyeshadow.png",
+        "img/face/default/catty/makeup/eyeshadow-half-closed.png"
+      ],
+      "operations": [
+        {
+          "op": "crop-transparent-right",
+          "src": "img/face/default/catty/makeup/eyeshadow.png",
+          "dst": "img/face/default/catty/makeup/eyeshadow.png",
+          "fromWidth": 516,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "op": "crop-transparent-right",
+          "src": "img/face/default/catty/makeup/eyeshadow-half-closed.png",
+          "dst": "img/face/default/catty/makeup/eyeshadow-half-closed.png",
+          "fromWidth": 516,
+          "width": 512,
+          "height": 256
+        }
+      ],
+      "evidence": {
+        "model": "main",
+        "layer": "makeup_eyeshadow",
+        "states": [
+          "eyes_half=false",
+          "eyes_half=true"
+        ],
+        "frameWidth": 256,
+        "frameCount": 2,
+        "proof": "These exact source assets are fully transparent placeholders. Only transparent trailing columns removed. First 512 columns remain byte-identical RGBA. No resampling or frame offsets."
+      },
+      "fallbackPaths": [
+        "img/face/default/catty/makeup/eyeshadow.png",
+        "img/face/default/catty/makeup/eyeshadow-half-closed.png"
+      ]
+    },
+    {
+      "id": "eyeshadow-default",
+      "sourceHashes": {
+        "img/face/default/default/makeup/eyeshadow.png": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30",
+        "img/face/default/default/makeup/eyeshadow-half-closed.png": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30"
+      },
+      "outputHashes": {
+        "img/face/default/default/makeup/eyeshadow.png": "c3a0f6816475fc6b14f3a1a420dd25fca9d7936fb6225316886036978d32a975",
+        "img/face/default/default/makeup/eyeshadow-half-closed.png": "c3a0f6816475fc6b14f3a1a420dd25fca9d7936fb6225316886036978d32a975"
+      },
+      "requiredOutputs": [
+        "img/face/default/default/makeup/eyeshadow.png",
+        "img/face/default/default/makeup/eyeshadow-half-closed.png"
+      ],
+      "operations": [
+        {
+          "op": "crop-transparent-right",
+          "src": "img/face/default/default/makeup/eyeshadow.png",
+          "dst": "img/face/default/default/makeup/eyeshadow.png",
+          "fromWidth": 516,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "op": "crop-transparent-right",
+          "src": "img/face/default/default/makeup/eyeshadow-half-closed.png",
+          "dst": "img/face/default/default/makeup/eyeshadow-half-closed.png",
+          "fromWidth": 516,
+          "width": 512,
+          "height": 256
+        }
+      ],
+      "evidence": {
+        "model": "main",
+        "layer": "makeup_eyeshadow",
+        "states": [
+          "eyes_half=false",
+          "eyes_half=true"
+        ],
+        "frameWidth": 256,
+        "frameCount": 2,
+        "proof": "These exact source assets are fully transparent placeholders. Only transparent trailing columns removed. First 512 columns remain byte-identical RGBA. No resampling or frame offsets."
+      },
+      "fallbackPaths": [
+        "img/face/default/default/makeup/eyeshadow.png",
+        "img/face/default/default/makeup/eyeshadow-half-closed.png"
+      ]
+    },
+    {
+      "id": "eyeshadow-sweet",
+      "sourceHashes": {
+        "img/face/default/sweet/makeup/eyeshadow.png": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30",
+        "img/face/default/sweet/makeup/eyeshadow-half-closed.png": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30"
+      },
+      "outputHashes": {
+        "img/face/default/sweet/makeup/eyeshadow.png": "c3a0f6816475fc6b14f3a1a420dd25fca9d7936fb6225316886036978d32a975",
+        "img/face/default/sweet/makeup/eyeshadow-half-closed.png": "c3a0f6816475fc6b14f3a1a420dd25fca9d7936fb6225316886036978d32a975"
+      },
+      "requiredOutputs": [
+        "img/face/default/sweet/makeup/eyeshadow.png",
+        "img/face/default/sweet/makeup/eyeshadow-half-closed.png"
+      ],
+      "operations": [
+        {
+          "op": "crop-transparent-right",
+          "src": "img/face/default/sweet/makeup/eyeshadow.png",
+          "dst": "img/face/default/sweet/makeup/eyeshadow.png",
+          "fromWidth": 516,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "op": "crop-transparent-right",
+          "src": "img/face/default/sweet/makeup/eyeshadow-half-closed.png",
+          "dst": "img/face/default/sweet/makeup/eyeshadow-half-closed.png",
+          "fromWidth": 516,
+          "width": 512,
+          "height": 256
+        }
+      ],
+      "evidence": {
+        "model": "main",
+        "layer": "makeup_eyeshadow",
+        "states": [
+          "eyes_half=false",
+          "eyes_half=true"
+        ],
+        "frameWidth": 256,
+        "frameCount": 2,
+        "proof": "These exact source assets are fully transparent placeholders. Only transparent trailing columns removed. First 512 columns remain byte-identical RGBA. No resampling or frame offsets."
+      },
+      "fallbackPaths": [
+        "img/face/default/sweet/makeup/eyeshadow.png",
+        "img/face/default/sweet/makeup/eyeshadow-half-closed.png"
+      ]
+    }
+  ],
+  "unverified": [
+    "other assets and states",
+    "Android"
+  ],
+  "source": "Task-local byte and target renderer evidence"
+}

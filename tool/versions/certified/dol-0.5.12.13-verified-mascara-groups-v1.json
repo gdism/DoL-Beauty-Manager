@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "id": "dol-0.5.12.13-verified-mascara-groups-v1",
+  "status": "validated",
+  "targetProfileHash": "2e2d00a4b0a5b4c80b84a6c358b787b1f566692f0fc06003562d8a4339785494",
+  "modelContract": {
+    "name": "main",
+    "width": 256,
+    "height": 256,
+    "frames": 2,
+    "scale": true,
+    "functions": {
+      "makeup_mascara.srcfn": "ead5944721a76ac487fa02cd98fe5506849860c50133020fe05533802678ca09",
+      "makeup_mascara.animationfn": "6c211c8372e1972f1545c1bc8871348ffa908ec15aa3efce1aac65e00171f1f0",
+      "makeup_mascara.showfn": "f3cbb806c377b337846d779a5da5106eae0eb55b7b7546a157750b8fc23cb2f1",
+      "makeup_mascara_tears.srcfn": "4d196d57e5a3aeea8ca7203bb04526d932d0db97263a3f9510628fcc7169bac9",
+      "makeup_mascara_tears.showfn": "27c5d2eb26b8b6ae4d0c49dc7187c7851373844c3e639057f25247c4b9dc1b6d"
+    }
+  },
+  "groups": [
+    {
+      "id": "mascara-complete-aloof",
+      "sourceHashes": {
+        "img/face/default/aloof/makeup/mascara.png": "1994624eb5db2c38719eb77945c06c832a15120d1ef1bd949697bfa647645dc8",
+        "img/face/default/aloof/makeup/mascara-half-closed.png": "1994624eb5db2c38719eb77945c06c832a15120d1ef1bd949697bfa647645dc8",
+        "img/face/default/aloof/makeup/mascara1.png": "a496631f2e43ec0afd7eed88c3977959b874d7a26b80c7356185616af6c77806",
+        "img/face/default/aloof/makeup/mascara2.png": "5ce934a99c4d8a7d4395c545efaccba77bb903b52a8b1017289d3d2fdca67011",
+        "img/face/default/aloof/makeup/mascara3.png": "7dc22c88149de735f9f29759d8cae0a0f10b0af348f20df97651f93cfc7f5892",
+        "img/face/default/aloof/makeup/mascara4.png": "b44c46778949e8060311b422ee7dfaf51981658368e278b88c9ad2edae5e292a"
+      },
+      "outputHashes": {
+        "img/face/default/aloof/makeup/mascara.png": "1994624eb5db2c38719eb77945c06c832a15120d1ef1bd949697bfa647645dc8",
+        "img/face/default/aloof/makeup/mascara-half-closed.png": "1994624eb5db2c38719eb77945c06c832a15120d1ef1bd949697bfa647645dc8",
+        "img/face/default/aloof/makeup/mascara1.png": "a496631f2e43ec0afd7eed88c3977959b874d7a26b80c7356185616af6c77806",
+        "img/face/default/aloof/makeup/mascara2.png": "5ce934a99c4d8a7d4395c545efaccba77bb903b52a8b1017289d3d2fdca67011",
+        "img/face/default/aloof/makeup/mascara3.png": "7dc22c88149de735f9f29759d8cae0a0f10b0af348f20df97651f93cfc7f5892",
+        "img/face/default/aloof/makeup/mascara4.png": "b44c46778949e8060311b422ee7dfaf51981658368e278b88c9ad2edae5e292a"
+      },
+      "requiredOutputs": [
+        "img/face/default/aloof/makeup/mascara.png",
+        "img/face/default/aloof/makeup/mascara-half-closed.png",
+        "img/face/default/aloof/makeup/mascara1.png",
+        "img/face/default/aloof/makeup/mascara2.png",
+        "img/face/default/aloof/makeup/mascara3.png",
+        "img/face/default/aloof/makeup/mascara4.png"
+      ],
+      "fallbackPaths": [
+        "img/face/default/aloof/makeup/mascara.png",
+        "img/face/default/aloof/makeup/mascara-half-closed.png",
+        "img/face/default/aloof/makeup/mascara1.png",
+        "img/face/default/aloof/makeup/mascara2.png",
+        "img/face/default/aloof/makeup/mascara3.png",
+        "img/face/default/aloof/makeup/mascara4.png"
+      ],
+      "operations": [],
+      "evidence": {
+        "kind": "verified-single-frame-repeat-and-complete-mascara-family",
+        "sourceSamples": [
+          893,
+          889,
+          840
+        ],
+        "pixels": [
+          {
+            "path": "img/face/default/aloof/makeup/mascara.png",
+            "width": 512,
+            "height": 256,
+            "visiblePixels": 142
+          },
+          {
+            "path": "img/face/default/aloof/makeup/mascara-half-closed.png",
+            "width": 512,
+            "height": 256,
+            "visiblePixels": 142
+          },
+          {
+            "path": "img/face/default/aloof/makeup/mascara1.png",
+            "width": 256,
+            "height": 256,
+            "visiblePixels": 54
+          },
+          {
+            "path": "img/face/default/aloof/makeup/mascara2.png",
+            "width": 256,
+            "height": 256,
+            "visiblePixels": 75
+          },
+          {
+            "path": "img/face/default/aloof/makeup/mascara3.png",
+            "width": 256,
+            "height": 256,
+            "visiblePixels": 114
+          },
+          {
+            "path": "img/face/default/aloof/makeup/mascara4.png",
+            "width": 256,
+            "height": 256,
+            "visiblePixels": 178
+          }
+        ],
+        "proof": "Exact post-path-rule bytes. Main lashes open/half and running levels 1..4 are one original-fallback family. The running layer has no mask or animation; target renderer repeats a single frame. Pixel bytes remain unchanged. Runtime tests must compare visible single-frame outputs to explicit repeated-frame controls."
+      }
+    },
+    {
+      "id": "mascara-complete-catty",
+      "sourceHashes": {
+        "img/face/default/catty/makeup/mascara.png": "1994624eb5db2c38719eb77945c06c832a15120d1ef1bd949697bfa647645dc8",
+        "img/face/default/catty/makeup/mascara-half-closed.png": "1994624eb5db2c38719eb77945c06c832a15120d1ef1bd949697bfa647645dc8",
+        "img/face/default/catty/makeup/mascara1.png": "a496631f2e43ec0afd7eed88c3977959b874d7a26b80c7356185616af6c77806",
+        "img/face/default/catty/makeup/mascara2.png": "5ce934a99c4d8a7d4395c545efaccba77bb903b52a8b1017289d3d2fdca67011",
+        "img/face/default/catty/makeup/mascara3.png": "7dc22c88149de735f9f29759d8cae0a0f10b0af348f20df97651f93cfc7f5892",
+        "img/face/default/catty/makeup/mascara4.png": "b44c46778949e8060311b422ee7dfaf51981658368e278b88c9ad2edae5e292a"
+      },
+      "outputHashes": {
+        "img/face/default/catty/makeup/mascara.png": "1994624eb5db2c38719eb77945c06c832a15120d1ef1bd949697bfa647645dc8",
+        "img/face/default/catty/makeup/mascara-half-closed.png": "1994624eb5db2c38719eb77945c06c832a15120d1ef1bd949697bfa647645dc8",
+        "img/face/default/catty/makeup/mascara1.png": "a496631f2e43ec0afd7eed88c3977959b874d7a26b80c7356185616af6c77806",
+        "img/face/default/catty/makeup/mascara2.png": "5ce934a99c4d8a7d4395c545efaccba77bb903b52a8b1017289d3d2fdca67011",
+        "img/face/default/catty/makeup/mascara3.png": "7dc22c88149de735f9f29759d8cae0a0f10b0af348f20df97651f93cfc7f5892",
+        "img/face/default/catty/makeup/mascara4.png": "b44c46778949e8060311b422ee7dfaf51981658368e278b88c9ad2edae5e292a"
+      },
+      "requiredOutputs": [
+        "img/face/default/catty/makeup/mascara.png",
+        "img/face/default/catty/makeup/mascara-half-closed.png",
+        "img/face/default/catty/makeup/mascara1.png",
+        "img/face/default/catty/makeup/mascara2.png",
+        "img/face/default/catty/makeup/mascara3.png",
+        "img/face/default/catty/makeup/mascara4.png"
+      ],
+      "fallbackPaths": [
+        "img/face/default/catty/makeup/mascara.png",
+        "img/face/default/catty/makeup/mascara-half-closed.png",
+        "img/face/default/catty/makeup/mascara1.png",
+        "img/face/default/catty/makeup/mascara2.png",
+        "img/face/default/catty/makeup/mascara3.png",
+        "img/face/default/catty/makeup/mascara4.png"
+      ],
+      "operations": [],
+      "evidence": {
+        "kind": "verified-single-frame-repeat-and-complete-mascara-family",
+        "sourceSamples": [
+          893,
+          889,
+          840
+        ],
+        "pixels": [
+          {
+            "path": "img/face/default/catty/makeup/mascara.png",
+            "width": 512,
+            "height": 256,
+            "visiblePixels": 142
+          },
+          {
+            "path": "img/face/default/catty/makeup/mascara-half-closed.png",
+            "width": 512,
+            "height": 256,
+            "visiblePixels": 142
+          },
+          {
+            "path": "img/face/default/catty/makeup/mascara1.png",
+            "width": 256,
+            "height": 256,
+            "visiblePixels": 54
+          },
+          {
+            "path": "img/face/default/catty/makeup/mascara2.png",
+            "width": 256,
+            "height": 256,
+            "visiblePixels": 75
+          },
+          {
+            "path": "img/face/default/catty/makeup/mascara3.png",
+            "width": 256,
+            "height": 256,
+            "visiblePixels": 114
+          },
+          {
+            "path": "img/face/default/catty/makeup/mascara4.png",
+            "width": 256,
+            "height": 256,
+            "visiblePixels": 178
+          }
+        ],
+        "proof": "Exact post-path-rule bytes. Main lashes open/half and running levels 1..4 are one original-fallback family. The running layer has no mask or animation; target renderer repeats a single frame. Pixel bytes remain unchanged. Runtime tests must compare visible single-frame outputs to explicit repeated-frame controls."
+      }
+    },
+    {
+      "id": "mascara-complete-default",
+      "sourceHashes": {
+        "img/face/default/default/makeup/mascara.png": "1994624eb5db2c38719eb77945c06c832a15120d1ef1bd949697bfa647645dc8",
+        "img/face/default/default/makeup/mascara-half-closed.png": "1994624eb5db2c38719eb77945c06c832a15120d1ef1bd949697bfa647645dc8",
+        "img/face/default/default/makeup/mascara1.png": "a496631f2e43ec0afd7eed88c3977959b874d7a26b80c7356185616af6c77806",
+        "img/face/default/default/makeup/mascara2.png": "5ce934a99c4d8a7d4395c545efaccba77bb903b52a8b1017289d3d2fdca67011",
+        "img/face/default/default/makeup/mascara3.png": "7dc22c88149de735f9f29759d8cae0a0f10b0af348f20df97651f93cfc7f5892",
+        "img/face/default/default/makeup/mascara4.png": "b44c46778949e8060311b422ee7dfaf51981658368e278b88c9ad2edae5e292a"
+      },
+      "outputHashes": {
+        "img/face/default/default/makeup/mascara.png": "1994624eb5db2c38719eb77945c06c832a15120d1ef1bd949697bfa647645dc8",
+        "img/face/default/default/makeup/mascara-half-closed.png": "1994624eb5db2c38719eb77945c06c832a15120d1ef1bd949697bfa647645dc8",
+        "img/face/default/default/makeup/mascara1.png": "a496631f2e43ec0afd7eed88c3977959b874d7a26b80c7356185616af6c77806",
+        "img/face/default/default/makeup/mascara2.png": "5ce934a99c4d8a7d4395c545efaccba77bb903b52a8b1017289d3d2fdca67011",
+        "img/face/default/default/makeup/mascara3.png": "7dc22c88149de735f9f29759d8cae0a0f10b0af348f20df97651f93cfc7f5892",
+        "img/face/default/default/makeup/mascara4.png": "b44c46778949e8060311b422ee7dfaf51981658368e278b88c9ad2edae5e292a"
+      },
+      "requiredOutputs": [
+        "img/face/default/default/makeup/mascara.png",
+        "img/face/default/default/makeup/mascara-half-closed.png",
+        "img/face/default/default/makeup/mascara1.png",
+        "img/face/default/default/makeup/mascara2.png",
+        "img/face/default/default/makeup/mascara3.png",
+        "img/face/default/default/makeup/mascara4.png"
+      ],
+      "fallbackPaths": [
+        "img/face/default/default/makeup/mascara.png",
+        "img/face/default/default/makeup/mascara-half-closed.png",
+        "img/face/default/default/makeup/mascara1.png",
+        "img/face/default/default/makeup/mascara2.png",
+        "img/face/default/default/makeup/mascara3.png",
+        "img/face/default/default/makeup/mascara4.png"
+      ],
+      "operations": [],
+      "evidence": {
+        "kind": "verified-single-frame-repeat-and-complete-mascara-family",
+        "sourceSamples": [
+          893,
+          889,
+          840
+        ],
+        "pixels": [
+          {
+            "path": "img/face/default/default/makeup/mascara.png",
+            "width": 512,
+            "height": 256,
+            "visiblePixels": 142
+          },
+          {
+            "path": "img/face/default/default/makeup/mascara-half-closed.png",
+            "width": 512,
+            "height": 256,
+            "visiblePixels": 142
+          },
+          {
+            "path": "img/face/default/default/makeup/mascara1.png",
+            "width": 256,
+            "height": 256,
+            "visiblePixels": 54
+          },
+          {
+            "path": "img/face/default/default/makeup/mascara2.png",
+            "width": 256,
+            "height": 256,
+            "visiblePixels": 75
+          },
+          {
+            "path": "img/face/default/default/makeup/mascara3.png",
+            "width": 256,
+            "height": 256,
+            "visiblePixels": 114
+          },
+          {
+            "path": "img/face/default/default/makeup/mascara4.png",
+            "width": 256,
+            "height": 256,
+            "visiblePixels": 178
+          }
+        ],
+        "proof": "Exact post-path-rule bytes. Main lashes open/half and running levels 1..4 are one original-fallback family. The running layer has no mask or animation; target renderer repeats a single frame. Pixel bytes remain unchanged. Runtime tests must compare visible single-frame outputs to explicit repeated-frame controls."
+      }
+    },
+    {
+      "id": "mascara-complete-sweet",
+      "sourceHashes": {
+        "img/face/default/sweet/makeup/mascara.png": "1994624eb5db2c38719eb77945c06c832a15120d1ef1bd949697bfa647645dc8",
+        "img/face/default/sweet/makeup/mascara-half-closed.png": "1994624eb5db2c38719eb77945c06c832a15120d1ef1bd949697bfa647645dc8",
+        "img/face/default/sweet/makeup/mascara1.png": "a496631f2e43ec0afd7eed88c3977959b874d7a26b80c7356185616af6c77806",
+        "img/face/default/sweet/makeup/mascara2.png": "5ce934a99c4d8a7d4395c545efaccba77bb903b52a8b1017289d3d2fdca67011",
+        "img/face/default/sweet/makeup/mascara3.png": "7dc22c88149de735f9f29759d8cae0a0f10b0af348f20df97651f93cfc7f5892",
+        "img/face/default/sweet/makeup/mascara4.png": "b44c46778949e8060311b422ee7dfaf51981658368e278b88c9ad2edae5e292a"
+      },
+      "outputHashes": {
+        "img/face/default/sweet/makeup/mascara.png": "1994624eb5db2c38719eb77945c06c832a15120d1ef1bd949697bfa647645dc8",
+        "img/face/default/sweet/makeup/mascara-half-closed.png": "1994624eb5db2c38719eb77945c06c832a15120d1ef1bd949697bfa647645dc8",
+        "img/face/default/sweet/makeup/mascara1.png": "a496631f2e43ec0afd7eed88c3977959b874d7a26b80c7356185616af6c77806",
+        "img/face/default/sweet/makeup/mascara2.png": "5ce934a99c4d8a7d4395c545efaccba77bb903b52a8b1017289d3d2fdca67011",
+        "img/face/default/sweet/makeup/mascara3.png": "7dc22c88149de735f9f29759d8cae0a0f10b0af348f20df97651f93cfc7f5892",
+        "img/face/default/sweet/makeup/mascara4.png": "b44c46778949e8060311b422ee7dfaf51981658368e278b88c9ad2edae5e292a"
+      },
+      "requiredOutputs": [
+        "img/face/default/sweet/makeup/mascara.png",
+        "img/face/default/sweet/makeup/mascara-half-closed.png",
+        "img/face/default/sweet/makeup/mascara1.png",
+        "img/face/default/sweet/makeup/mascara2.png",
+        "img/face/default/sweet/makeup/mascara3.png",
+        "img/face/default/sweet/makeup/mascara4.png"
+      ],
+      "fallbackPaths": [
+        "img/face/default/sweet/makeup/mascara.png",
+        "img/face/default/sweet/makeup/mascara-half-closed.png",
+        "img/face/default/sweet/makeup/mascara1.png",
+        "img/face/default/sweet/makeup/mascara2.png",
+        "img/face/default/sweet/makeup/mascara3.png",
+        "img/face/default/sweet/makeup/mascara4.png"
+      ],
+      "operations": [],
+      "evidence": {
+        "kind": "verified-single-frame-repeat-and-complete-mascara-family",
+        "sourceSamples": [
+          893,
+          889,
+          840
+        ],
+        "pixels": [
+          {
+            "path": "img/face/default/sweet/makeup/mascara.png",
+            "width": 512,
+            "height": 256,
+            "visiblePixels": 142
+          },
+          {
+            "path": "img/face/default/sweet/makeup/mascara-half-closed.png",
+            "width": 512,
+            "height": 256,
+            "visiblePixels": 142
+          },
+          {
+            "path": "img/face/default/sweet/makeup/mascara1.png",
+            "width": 256,
+            "height": 256,
+            "visiblePixels": 54
+          },
+          {
+            "path": "img/face/default/sweet/makeup/mascara2.png",
+            "width": 256,
+            "height": 256,
+            "visiblePixels": 75
+          },
+          {
+            "path": "img/face/default/sweet/makeup/mascara3.png",
+            "width": 256,
+            "height": 256,
+            "visiblePixels": 114
+          },
+          {
+            "path": "img/face/default/sweet/makeup/mascara4.png",
+            "width": 256,
+            "height": 256,
+            "visiblePixels": 178
+          }
+        ],
+        "proof": "Exact post-path-rule bytes. Main lashes open/half and running levels 1..4 are one original-fallback family. The running layer has no mask or animation; target renderer repeats a single frame. Pixel bytes remain unchanged. Runtime tests must compare visible single-frame outputs to explicit repeated-frame controls."
+      }
+    }
+  ],
+  "unverified": [
+    "other source bytes",
+    "other face styles",
+    "all game states and cross-layer interactions",
+    "Android"
+  ]
+}

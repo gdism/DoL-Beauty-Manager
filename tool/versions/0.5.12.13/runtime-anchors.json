@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "stage": "ModLoader/I18n processed runtime",
+  "source": "isolated stock 0.5.12.13 fixture; two complete runtime passage hashes recorded",
+  "home": {
+    "passage": "Widgets Clothing Caption / startCaption",
+    "passageHash": "e8a255e6a3b1291dab41a4939d6fd8911871b310e70037a459d10e6d1ef9abef",
+    "anchor": "Replace \"options\">>\n\t\t<</button>>\n\t\t<<button 成就>>\n\t\t\t<<overlayReplace \"startFeats\">>\n\t\t<</button>>\n\t</div>",
+    "matchCount": 1,
+    "anchorStart": 214,
+    "splitOpen": [
+      153,
+      185
+    ],
+    "splitClose": [
+      314,
+      320
+    ],
+    "insertAt": 320,
+    "directParent": "external #startCaption widget caller",
+    "outerClose": null,
+    "offsetUnit": "Unicode code points; match anchor text at runtime",
+    "inMemoryStructureValidated": true,
+    "fullPassageHash": "41d8536e2ee21e22a063131d56b40585919924fb5ad2565bf463082b66ac637e"
+  },
+  "ingame": {
+    "passage": "StoryCaption",
+    "passageHash": "9a0f7db92f22c7e9044f0ecde9686e887e22b1767a996755d16c0c919db96573",
+    "anchor": "ce \"options\">>\n\t\t\t\t<</button>>\n\t\t\t\t<<button 存档>>\n\t\t\t\t\t<<overlayReplace \"saves\">>\n\t\t\t\t<</button>>\n\t\t\t</div>",
+    "matchCount": 1,
+    "anchorStart": 12982,
+    "splitOpen": [
+      12912,
+      12944
+    ],
+    "splitClose": [
+      13082,
+      13088
+    ],
+    "insertAt": 13088,
+    "directParent": "overlayButtons",
+    "outerClose": 13091,
+    "offsetUnit": "Unicode code points; match anchor text at runtime",
+    "inMemoryStructureValidated": true
+  }
+}

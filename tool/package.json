@@ -1,0 +1,13 @@
+{
+  "name": "dol-beauty-manager-local-preview",
+  "version": "0.1.1",
+  "private": true,
+  "scripts": {
+    "build": "python -B tools/build.py",
+    "build:twee": "python -B tools/build.py --twee-entry",
+    "test": "node tests/release-smoke.cjs && node tests/rule-groups.cjs && node tests/diagnostics.cjs && node tests/profiles.cjs && node tests/source-dependencies.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "dol-0.5.12.13-original-transparent-eyeshadow-v1",
+  "status": "validated",
+  "targetProfileHash": "2e2d00a4b0a5b4c80b84a6c358b787b1f566692f0fc06003562d8a4339785494",
+  "modelContract": {
+    "name": "main",
+    "width": 256,
+    "height": 256,
+    "frames": 2,
+    "scale": true,
+    "functions": {
+      "makeup_eyeshadow.brightnessfn": "842d1b5be4f97002efe2e5c6b3da43a70eac76723131c6ab95cc2a59521d8675",
+      "makeup_eyeshadow.srcfn": "40497a8560d1f1fc4e5e355a29ed68b5592e1b9023de87928e0f93cab50b0a03",
+      "makeup_eyeshadow.animationfn": "6c211c8372e1972f1545c1bc8871348ffa908ec15aa3efce1aac65e00171f1f0",
+      "makeup_eyeshadow.showfn": "fea19273cfd1c630fdd4ce453c063a01c41176d33f5fc5b046ea3555f7e980ee"
+    }
+  },
+  "groups": [
+    {
+      "id": "original-eyeshadow-all-styles",
+      "sourceHashes": {
+        "img/face/default/default/makeup/eyeshadow.png": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30",
+        "img/face/default/aloof/makeup/eyeshadow.png": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30",
+        "img/face/default/catty/makeup/eyeshadow.png": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30",
+        "img/face/default/sweet/makeup/eyeshadow.png": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30",
+        "img/face/default/default/makeup/eyeshadow-halfclosed.png": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30",
+        "img/face/default/aloof/makeup/eyeshadow-half-closed.png": null,
+        "img/face/default/catty/makeup/eyeshadow-half-closed.png": null,
+        "img/face/default/default/makeup/eyeshadow-half-closed.png": null,
+        "img/face/default/sweet/makeup/eyeshadow-half-closed.png": null
+      },
+      "outputHashes": {
+        "img/face/default/default/makeup/eyeshadow.png": "c3a0f6816475fc6b14f3a1a420dd25fca9d7936fb6225316886036978d32a975",
+        "img/face/default/aloof/makeup/eyeshadow.png": "c3a0f6816475fc6b14f3a1a420dd25fca9d7936fb6225316886036978d32a975",
+        "img/face/default/catty/makeup/eyeshadow.png": "c3a0f6816475fc6b14f3a1a420dd25fca9d7936fb6225316886036978d32a975",
+        "img/face/default/sweet/makeup/eyeshadow.png": "c3a0f6816475fc6b14f3a1a420dd25fca9d7936fb6225316886036978d32a975",
+        "img/face/default/default/makeup/eyeshadow-halfclosed.png": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30",
+        "img/face/default/aloof/makeup/eyeshadow-half-closed.png": "c3a0f6816475fc6b14f3a1a420dd25fca9d7936fb6225316886036978d32a975",
+        "img/face/default/catty/makeup/eyeshadow-half-closed.png": "c3a0f6816475fc6b14f3a1a420dd25fca9d7936fb6225316886036978d32a975",
+        "img/face/default/default/makeup/eyeshadow-half-closed.png": "c3a0f6816475fc6b14f3a1a420dd25fca9d7936fb6225316886036978d32a975",
+        "img/face/default/sweet/makeup/eyeshadow-half-closed.png": "c3a0f6816475fc6b14f3a1a420dd25fca9d7936fb6225316886036978d32a975"
+      },
+      "requiredOutputs": [
+        "img/face/default/aloof/makeup/eyeshadow.png",
+        "img/face/default/catty/makeup/eyeshadow.png",
+        "img/face/default/default/makeup/eyeshadow.png",
+        "img/face/default/sweet/makeup/eyeshadow.png",
+        "img/face/default/aloof/makeup/eyeshadow-half-closed.png",
+        "img/face/default/catty/makeup/eyeshadow-half-closed.png",
+        "img/face/default/default/makeup/eyeshadow-half-closed.png",
+        "img/face/default/sweet/makeup/eyeshadow-half-closed.png"
+      ],
+      "fallbackPaths": [
+        "img/face/default/aloof/makeup/eyeshadow.png",
+        "img/face/default/catty/makeup/eyeshadow.png",
+        "img/face/default/default/makeup/eyeshadow.png",
+        "img/face/default/sweet/makeup/eyeshadow.png",
+        "img/face/default/aloof/makeup/eyeshadow-half-closed.png",
+        "img/face/default/catty/makeup/eyeshadow-half-closed.png",
+        "img/face/default/default/makeup/eyeshadow-half-closed.png",
+        "img/face/default/sweet/makeup/eyeshadow-half-closed.png"
+      ],
+      "operations": [
+        {
+          "op": "crop-transparent-right",
+          "src": "img/face/default/default/makeup/eyeshadow.png",
+          "dst": "img/face/default/default/makeup/eyeshadow.png",
+          "fromWidth": 516,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "op": "copy",
+          "src": "img/face/default/default/makeup/eyeshadow.png",
+          "dst": "img/face/default/aloof/makeup/eyeshadow.png"
+        },
+        {
+          "op": "copy",
+          "src": "img/face/default/default/makeup/eyeshadow.png",
+          "dst": "img/face/default/catty/makeup/eyeshadow.png"
+        },
+        {
+          "op": "copy",
+          "src": "img/face/default/default/makeup/eyeshadow.png",
+          "dst": "img/face/default/sweet/makeup/eyeshadow.png"
+        },
+        {
+          "op": "crop-transparent-right",
+          "src": "img/face/default/default/makeup/eyeshadow-halfclosed.png",
+          "dst": "img/face/default/default/makeup/eyeshadow-half-closed.png",
+          "fromWidth": 516,
+          "width": 512,
+          "height": 256
+        },
+        {
+          "op": "copy",
+          "src": "img/face/default/default/makeup/eyeshadow-half-closed.png",
+          "dst": "img/face/default/aloof/makeup/eyeshadow-half-closed.png"
+        },
+        {
+          "op": "copy",
+          "src": "img/face/default/default/makeup/eyeshadow-half-closed.png",
+          "dst": "img/face/default/catty/makeup/eyeshadow-half-closed.png"
+        },
+        {
+          "op": "copy",
+          "src": "img/face/default/default/makeup/eyeshadow-half-closed.png",
+          "dst": "img/face/default/sweet/makeup/eyeshadow-half-closed.png"
+        }
+      ],
+      "evidence": {
+        "kind": "fully-transparent-placeholder-path-and-tail",
+        "sources": {
+          "open": "img/face/default/default/makeup/eyeshadow.png",
+          "half": "img/face/default/default/makeup/eyeshadow-halfclosed.png"
+        },
+        "paths": [
+          {
+            "src": "img/face/default/default/makeup/eyeshadow.png",
+            "dst": "img/face/default/aloof/makeup/eyeshadow.png",
+            "sha256": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30"
+          },
+          {
+            "src": "img/face/default/default/makeup/eyeshadow.png",
+            "dst": "img/face/default/catty/makeup/eyeshadow.png",
+            "sha256": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30"
+          },
+          {
+            "src": "img/face/default/default/makeup/eyeshadow.png",
+            "dst": "img/face/default/default/makeup/eyeshadow.png",
+            "sha256": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30"
+          },
+          {
+            "src": "img/face/default/default/makeup/eyeshadow.png",
+            "dst": "img/face/default/sweet/makeup/eyeshadow.png",
+            "sha256": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30"
+          },
+          {
+            "src": "img/face/default/default/makeup/eyeshadow-halfclosed.png",
+            "dst": "img/face/default/aloof/makeup/eyeshadow-half-closed.png",
+            "sha256": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30"
+          },
+          {
+            "src": "img/face/default/default/makeup/eyeshadow-halfclosed.png",
+            "dst": "img/face/default/catty/makeup/eyeshadow-half-closed.png",
+            "sha256": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30"
+          },
+          {
+            "src": "img/face/default/default/makeup/eyeshadow-halfclosed.png",
+            "dst": "img/face/default/default/makeup/eyeshadow-half-closed.png",
+            "sha256": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30"
+          },
+          {
+            "src": "img/face/default/default/makeup/eyeshadow-halfclosed.png",
+            "dst": "img/face/default/sweet/makeup/eyeshadow-half-closed.png",
+            "sha256": "439e3d1ea08c03d8ba5327247b03af9abc70cfb9e5c9c7a6cc543005ddef1e30"
+          }
+        ],
+        "proof": "Exact original 893/889 source bytes are fully transparent. Retained RGBA columns 0..511 copied without resampling. Known legacy source provenance expanded to 4 variants and 2 eye states, certified against actual 5.12 layer requests. Old unmatched source path retained."
+      }
+    }
+  ],
+  "unverified": [
+    "other source bytes",
+    "visible artwork correction",
+    "all game states",
+    "Android"
+  ]
+}

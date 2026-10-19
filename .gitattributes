@@ -1,0 +1,3 @@
+# Preserve source bytes so deterministic packages reproduce exactly.
+* -text
+*.zip binary
